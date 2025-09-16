@@ -7,7 +7,7 @@
 	(title_block
 		(title "Lichee-Jack EXT. Board")
 		(date "2025-09-16")
-		(rev "1.0")
+		(rev "1.1")
 		(company "KaliAssistant")
 	)
 	(lib_symbols
@@ -3603,24 +3603,6 @@
 					)
 				)
 				(pin passive line
-					(at 2.54 -2.54 0)
-					(length 2.54)
-					(name "GPIOA_16/UART0_TX/PWM_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 -5.08 0)
 					(length 2.54)
 					(name "GND"
@@ -3775,6 +3757,26 @@
 						)
 					)
 					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "LicheeRV_Nano_1_1"
+				(pin passive line
+					(at 2.54 -7.62 0)
+					(length 2.54)
+					(name "GPIOA_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6371,6 +6373,28 @@
 			)
 		)
 	)
+	(global_label "VSYS"
+		(shape input)
+		(at 184.15 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5beaf31d-f263-42c0-9d1a-e52df6b9daaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.7314 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_25"
 		(shape input)
 		(at 41.91 165.1 180)
@@ -6415,7 +6439,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_16"
+	(global_label "GPIO_15"
 		(shape input)
 		(at 200.66 45.72 0)
 		(fields_autoplaced yes)
@@ -6433,6 +6457,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 173.99 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e9c527b-66b9-41db-946c-0b82014795bb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.1062 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -6547,9 +6593,9 @@
 			)
 		)
 	)
-	(global_label "GPIO_16"
+	(global_label "GPIO_15"
 		(shape input)
-		(at 144.78 93.98 180)
+		(at 144.78 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6559,7 +6605,7 @@
 		)
 		(uuid "c53e4046-5f08-43c6-8684-4999bd33b08a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.9329 93.98 0)
+			(at 133.9329 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7464,6 +7510,207 @@
 			(project ""
 				(path "/7dcf395c-81df-489f-a839-8796e962d465"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PMEG4010CEJ_115:PMEG4010CEJ_115")
+		(at 179.07 62.23 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34fd8139-f98c-4ce5-9b5f-602c978a9ba0")
+		(property "Reference" "D5"
+			(at 180.3401 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SS1X-323"
+			(at 176.022 65.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PMEG4010CEJ_115:DIO_PMEG4010CEJ_115"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "NXP Semiconductors"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOD-323 NXP Semiconductors"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PMEG4010CEJ,115/NXP+Semiconductors/view-part/?ref=eda"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "02"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PMEG4010CEJ,115/NXP+Semiconductors/view-part/?ref=snap"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "PMEG4010CEJ,115"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Diode Schottky 40V 1A (DC) Surface Mount SOD-323F"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PN" "PMEG4010CEJ,115"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "NXP"
+			(at 179.07 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0d2f129-351a-4f34-afca-67c81f1bdcd0")
+		)
+		(pin "1"
+			(uuid "a4815eaf-79dd-4822-b7ac-2b02fc6d85ce")
+		)
+		(instances
+			(project "LICHEE-JACK_EXT_BOARD"
+				(path "/7dcf395c-81df-489f-a839-8796e962d465"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10541,7 +10788,7 @@
 		(pin "15"
 			(uuid "c0bf1922-eccd-4c42-9520-401bf80f9e72")
 		)
-		(pin "2"
+		(pin "4"
 			(uuid "4c095d03-ca8a-48d4-bb3f-b2926096a0a4")
 		)
 		(pin "10"

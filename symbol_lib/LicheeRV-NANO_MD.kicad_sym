@@ -100,24 +100,6 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -2.54 0)
-				(length 2.54)
-				(name "GPIOA_16/UART0_TX/PWM_4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 2.54 -5.08 0)
 				(length 2.54)
 				(name "GND"
@@ -272,6 +254,26 @@
 					)
 				)
 				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LicheeRV_Nano_1_1"
+			(pin passive line
+				(at 2.54 -7.62 0)
+				(length 2.54)
+				(name "GPIOA_15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
