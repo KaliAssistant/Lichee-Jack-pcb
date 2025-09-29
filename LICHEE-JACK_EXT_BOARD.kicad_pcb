@@ -4017,6 +4017,17 @@
 			(uuid "d96be00c-96a9-475d-b89a-06079283648a")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/3dmodules/LicheeRV_Nano_W_CTT.stp"
+			(offset
+				(xyz -3.44 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
