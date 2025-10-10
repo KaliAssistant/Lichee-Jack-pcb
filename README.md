@@ -49,8 +49,7 @@ The extension board consists of two main parts:
 
 - Use **low-temperature solder paste** (e.g., `Sn42/Bi58`) when soldering these together
 
-<img src="./doc/PABA_TOP.jpg" width="45%">
-<img src="./doc/PCBA_BTM.jpg" width="45%">
+<img src="./doc/PABA_TOP.jpg" width="45%"> <img src="./doc/PCBA_BTM.jpg" width="38.19%">
 
 ---
 
