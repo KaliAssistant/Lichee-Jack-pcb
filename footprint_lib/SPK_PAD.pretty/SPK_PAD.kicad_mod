@@ -1,0 +1,66 @@
+(footprint "Untitled"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -14 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "42048bce-10eb-413b-a537-2a9872365054")
+		(effects
+			(font (size 1 1) (thickness 0.1))
+		)
+	)
+	(property "Value" "SPK_PAD"
+		(at 0 -12.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "565920ce-43e6-4911-a9fb-0a0f81883e65")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65e91dae-9aab-4275-9f2c-5699c8c528fb")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1c33386-78ef-46a8-b421-2ad23aa0aeb8")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "40f301ca-8a5c-4bb9-99fa-a133f1d590c1")
+		(effects
+			(font (size 1 1) (thickness 0.15))
+		)
+	)
+	(pad "1" smd oval
+		(at -0.65 0 270)
+		(size 2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b96e2fe1-531f-4fd3-bf29-f7fd291ae1f1")
+	)
+	(pad "2" smd oval
+		(at 0.65 0 270)
+		(size 2 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "72436b89-5e24-44aa-9776-e175b54a128f")
+	)
+	(embedded_fonts no)
+)

@@ -1,53 +1,80 @@
-# Lichee-Jack-pcb
+# Lichee-Jack PCB
 
-This repository contains the open-source extension board design for the [Lichee-Jack](https://github.com/KaliAssistant/Lichee-Jack) project.
+This repository contains the open-source extension board system for the **Lichee-Jack** project. It includes multiple PCBs, FPCs, stack-up boards, and extension modules designed to expand the capabilities of the LicheeRV Nano.
 
 ![](./doc/LICHEE-JACK_EXT_BOARD.svg)
 
+---
 
 ## Overview
 
-The extension board consists of two main parts:
+The complete hardware system consists of **three main boards**:
+
+---
 
 ### 1. `Lichee-Jack_EXT_BOARD`
-<img src="./doc/3D-BTM.png" width="90%">
-<img src="./doc/3D-TOP.png" width="90%">
 
-* The main functional PCB
-* PCB thickness: 1.6 mm
-* Includes core components such as:
-  * Battery management circuit
-  * WS2812 (NeoPixel) LED
-  * SP3T switch
-  * Other supporting components
+<img src="./doc/ext_board_v1_2_btm.png" width="90%">
+<img src="./doc/ext_board_v1_2_top.png" width="90%">
 
-### 2. `Lichee-Jack_ETH_FPC`
+The primary functional PCB containing:
 
-<img src="./doc/FPC.jpg" width="90%">
-<img src="./doc/FPC_EDA.png" width="90%">
+* Battery management system
+* WS2812 RGB LED
+* SP3T control switch
+* Peripheral support circuits
+* PCB thickness: **1.6 mm**
 
-* A flexible flat cable (FPC) used to connect:
-  * The Ethernet (ETH) pads on the LicheeRV Nano
-  * The corresponding ETH pads on the extension board
+---
+
+### 2. `Lichee-Jack_EXT_BOARD_FPC`
+
+<img src="./doc/ext_board_fpc_3dview.png" width="90%">
+<img src="./doc/ext_board_fpc_cadview.png" width="90%">
+
+A flexible cable connecting:
+
+* LicheeRV Nano ETH pads → EXT board ETH pads
+* LicheeRV Nano CSI pads → Header board
+* Extra signals for extension modules
+
+---
+
+### 3. `Lichee-Jack_HEADER_BOARD`
+
+<img src="./doc/header-board-top.png" width="90%">
+<img src="./doc/header-board-btm.png" width="90%">
+<img src="./doc/header-board-freecad.png" width="90%">
+
+Adapter board for:
+
+* 1.27 mm 2×10 SMT header
+* EXT_BOARD_FPC
+* PCB thickness: **0.8 mm**
+
+Used by external extension modules.
 
 ---
 
 ## Assembly Notes
 
-> [!NOTE]
-> Soldering requires **careful thermal profiling** to avoid damaging components.
+> **Important:** Follow recommended solder temperatures to avoid damage.
 
-### EXT. Board
+### EXT_BOARD
 
-- Use **high-temperature solder paste** (e.g., `Sn63/Pb37` or `SAC305`)
+* Use **high-temperature solder paste** (Sn63/Pb37 or SAC305)
 
-###  ETH-FPC
+### EXT_BOARD_FPC
 
-- Solder using a **standard soldering iron**
+* Solder with **standard soldering iron**
 
-### LicheeRV Nano + EXT. Board
+### Header Board
 
-- Use **low-temperature solder paste** (e.g., `Sn42/Bi58`) when soldering these together
+* Use **high-temperature solder paste**
+
+### LicheeRV Nano + EXT Board
+
+* Use **low-temperature solder paste** (Sn42/Bi58)
 
 <img src="./doc/PABA_TOP.jpg" width="45%"> <img src="./doc/PCBA_BTM.jpg" width="38.19%">
 
@@ -55,75 +82,93 @@ The extension board consists of two main parts:
 
 ## Battery Information
 
-- **Recommended:** Li-po 3.7V 200mAh battery  
-- **Model:** `402030`  
-- Specifically chosen to **fit inside the 3D-printed case** included in this repository
-
-
----
-
-## 5V Power Configuration
-
-On the **LicheeRV Nano**, the **USB 5V input (VBUS)** and **VSYS** are shorted by a `0Ω` resistor (labeled `"5V"`) on the **bottom layer**.
-
-> [!NOTE]
-> **To safely power the system externally**, you must **remove this 0Ω resistor.**
+* Recommended: **Li-Po 3.7V 200mAh**
+* Model: **402030**
+* Fits the 3D-printed enclosure included in the repo
 
 ---
 
-## Compatibility with 3D-Printed Case
+## 5V Power Notes
 
-To fit the **LicheeRV Nano + Extension Board** into the provided **3D-printed enclosure**, perform the following hardware modifications:
+The LicheeRV Nano shorts **VBUS** ↔ **VSYS** using a 0Ω resistor (marked "5V").
 
-### 1. Remove Components
+To safely power externally:
 
-- Desolder the **CSI Camera connector** from the LicheeRV Nano
+> **Remove the 0Ω resistor** on the bottom layer.
 
-### 2. Ethernet Cable Wiring
+---
 
-- Cut and strip a short **4P (or 8P)** RJ45 cable (you only need the wires)
-- Solder the following wires to the Extension Board ETH pad:
-  - `WOG`, `OG`, `WG`, `G` -> `1` `2` `3` `6`
-- Crimp an **RJ45 8P8C** connector to the other end
+## Assembly for 3D-Printed Case Compatibility
+
+To fit the Nano + EXT Board inside the enclosure:
+
+### 1. Remove CSI Connector
+
+* Desolder the CSI camera connector on the LicheeRV Nano
+
+### 3. Install Header Board
+
+* Solder SMT connectors based on BOM
+
+### 4. Connect FPC
+
+* Solder EXT_BOARD_FPC between the Header Board and the LicheeRV Nano
+
+### 5. Ethernet Wiring
+
+* Use short 4P or 8P RJ45 cable
+* Solder wires to EXT Board ETH pads:
+
+  * WOG, OG, WG, G → pins 1, 2, 3, 6
+* Crimp 8P8C connector to cable end
 
 ![](./doc/8P8C.jpg)
 
 ---
 
-## PCB Assembly (if SMT soldering is hard)
+## PCB Assembly via Manufacturer
 
-If you or your assembler are not comfortable with SMT soldering, you can have the extension board fabricated and partially assembled by a PCB/PCBA manufacturer (for example: JLCPCB, PCBWay, Seeed Fusion, etc.). Use the repository release files (Gerbers) together with the **BOM** and **CPL** to place an order for PCB fabrication and PCBA (assembly) of the **Extension Board only**.
+You may order PCBA for the **EXT_BOARD** using:
+
+* Gerber files
+* BOM
+* CPL
+
+Manufacturers (JLCPCB / PCBWay / Seeed) will assemble **only the EXT_BOARD**. The LicheeRV Nano must be soldered manually unless custom services are arranged.
 
 ![](./doc/JLCPCB1.png)
 ![](./doc/JLCPCB2.png)
 ![](./doc/JLCPCB3.png)
 ![](./doc/JLCPCB4.png)
 
-**Important:** the manufacturer will only assemble the extension board (EXT_BOARD). The SIPEED LicheeRV Nano module itself is **not** included in the PCBA service — you must solder the LicheeRV Nano to the EXT_BOARD yourself after receiving the assembled PCBs, unless you explicitly arrange a custom assembly that includes the Nano (rare and often expensive).
-
-If you want a fully populated, plug-and-play unit, contact the PCBA vendor beforehand and confirm which parts they will source and assemble (and whether they can handle the LicheeRV Nano module). Otherwise expect to receive the EXT_BOARD fully assembled and still needing the LicheeRV Nano and a few user-installed parts.
-
 ---
 
+## PCB Version History
 
-## PCB Versions
+Always use the latest revision.
 
-The PCB design has 2 versions — always use the newest version (now **v1.1**).
+### v1.0 → v1.1
 
-### Changelog
+* Added missing Schottky diode between PWR_IN → PWR_OUT
+* Fixed boot issue by rerouting SP3T pos1 from GPIO-A16 → GPIO-A15
+* See diagram:
+  ![](./doc/V1_0_V1_1_CHANGELOG.png)
 
-* **v1.0 → v1.1**
+### v1.1 → v1.0.32 (EXT_BOARD)
 
-  * **Issues in v1.0:**
+* Fixed UART0-RX conflict (GPIO-A17)
+* Rerouted pos2 → GPIO-A24
+* Added speaker pads
+* Replaced old ETH-FPC system with:
 
-    * The `$PWRIN` → `$PWROUT` path did **not** include a Schottky diode. If USB power is removed while the boost converter is supplying 5V, the boost output could back-charge the TP5400 battery charger.
-    * The SP3T **pos1** signal in v1.0 was wired to **GPIO-A16** (UART0-TX). During early boot (BL2) of the LicheeRV Nano this prevented serial output and could cause the board to hang or fail to boot. In **v1.1** the pos1 line was moved to **GPIO-A15**.
-    ![](./doc/V1_0_V1_1_CHANGELOG.png)
-
+  * Stack board
+  * Header board
+  * New EXT_BOARD_FPC
 
 ---
 
 ## License
 
 Licensed under **GNU GPLv3**.
-Feel free to **use**, **study**, **modify**, and **share** under the same license.
+
+You are free to **use**, **modify**, **study**, and **redistribute** this project under the same license.

@@ -36,9 +36,9 @@ fp-info-cache
 *.raw
 .svg2shenzhen-cache 
 
-gerberout/
-gerberout_fpc/
+gerberout*/
 gerber.zip
 jlcpcb/
-GERBER-LICHEE-JACK_ETH_FPC.zip
-GERBER-LICHEE-JACK_EXT_BOARD.zip
+GERBER-LICHEE-JACK*.zip
+production/
+.private/
