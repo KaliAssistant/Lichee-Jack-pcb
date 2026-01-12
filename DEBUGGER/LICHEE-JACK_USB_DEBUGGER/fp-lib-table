@@ -54,4 +54,5 @@
   (lib (name "YLED0603O")(type "KiCad")(uri "${KIPRJMOD}/footprint_lib/YLED0603O.pretty")(options "")(descr ""))
   (lib (name "YLED0603R")(type "KiCad")(uri "${KIPRJMOD}/footprint_lib/YLED0603R.pretty")(options "")(descr ""))
   (lib (name "YLED0603B")(type "KiCad")(uri "${KIPRJMOD}/footprint_lib/YLED0603B.pretty")(options "")(descr ""))
+  (lib (name "YLED0603Y")(type "KiCad")(uri "${KIPRJMOD}/footprint_lib/YLED0603Y.pretty")(options "")(descr ""))
 )

@@ -46,4 +46,5 @@
   (lib (name "YLED0603O")(type "KiCad")(uri "${KIPRJMOD}/symbol_lib/YLED0603O.kicad_sym")(options "")(descr ""))
   (lib (name "YLED0603R")(type "KiCad")(uri "${KIPRJMOD}/symbol_lib/YLED0603R.kicad_sym")(options "")(descr ""))
   (lib (name "YLED0603B")(type "KiCad")(uri "${KIPRJMOD}/symbol_lib/YLED0603B.kicad_sym")(options "")(descr ""))
+  (lib (name "YLED0603Y")(type "KiCad")(uri "${KIPRJMOD}/symbol_lib/YLED0603Y.kicad_sym")(options "")(descr ""))
 )

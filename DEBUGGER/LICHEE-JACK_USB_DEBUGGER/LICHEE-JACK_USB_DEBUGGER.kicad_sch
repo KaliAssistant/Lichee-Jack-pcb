@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Lichee-Jack USB Debugger")
-		(date "2026-01-10")
+		(date "2026-01-11")
 		(rev "1.0")
 		(company "KaliAssistant")
 	)
@@ -4235,198 +4235,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "YLED0603O:YLED0603O"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "YLED0603O"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "YLED0603O:LED0603-FD"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C19273153"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "YLED0603O_0_1"
-				(polyline
-					(pts
-						(xy -4.06 3.3) (xy -3.05 2.79) (xy -3.56 2.29) (xy -4.06 3.3)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.05 4.32) (xy -2.03 3.81) (xy -2.54 3.3) (xy -3.05 4.32)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.29 1.52) (xy -3.3 2.54) (xy -2.29 1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -2.29 3.56) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.78) (xy -1.27 -1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.78) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.78)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "YLED0603R:YLED0603R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5731,7 +5539,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 96.52) (xy 92.71 96.52)
+			(xy 57.15 99.06) (xy 92.71 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5931,7 +5739,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 93.98) (xy 64.77 93.98)
+			(xy 54.61 96.52) (xy 64.77 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5961,7 +5769,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 95.25) (xy 78.74 100.33)
+			(xy 78.74 97.79) (xy 78.74 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6141,7 +5949,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 93.98) (xy 64.77 100.33)
+			(xy 64.77 96.52) (xy 64.77 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6361,16 +6169,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 176.53) (xy 19.05 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c2626f2-c5a8-4aed-b544-a43c865cb34c")
-	)
-	(wire
-		(pts
 			(xy 260.35 40.64) (xy 266.7 40.64)
 		)
 		(stroke
@@ -6511,7 +6309,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 110.49) (xy 54.61 93.98)
+			(xy 54.61 110.49) (xy 54.61 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6531,7 +6329,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 115.57) (xy 55.88 95.25)
+			(xy 55.88 115.57) (xy 55.88 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6631,7 +6429,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 95.25) (xy 78.74 95.25)
+			(xy 55.88 97.79) (xy 78.74 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6918,16 +6716,6 @@
 			(type default)
 		)
 		(uuid "bd2921c4-c8ae-4fe0-8919-59752c056e76")
-	)
-	(wire
-		(pts
-			(xy 19.05 165.1) (xy 19.05 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd6a00ae-e380-445f-a6b9-c46fc958d915")
 	)
 	(wire
 		(pts
@@ -7221,7 +7009,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 118.11) (xy 57.15 96.52)
+			(xy 57.15 118.11) (xy 57.15 99.06)
 		)
 		(stroke
 			(width 0)
@@ -7281,16 +7069,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 186.69) (xy 19.05 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edc3752b-7983-41e2-87c2-1e3581580c57")
-	)
-	(wire
-		(pts
 			(xy 217.17 123.19) (xy 222.25 123.19)
 		)
 		(stroke
@@ -7301,7 +7079,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 96.52) (xy 92.71 100.33)
+			(xy 92.71 99.06) (xy 92.71 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7703,7 +7481,7 @@
 	)
 	(global_label "VCON"
 		(shape input)
-		(at 19.05 186.69 0)
+		(at 19.05 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7713,7 +7491,7 @@
 		)
 		(uuid "4a626be3-1e2f-4307-8d64-2e991022f522")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.0548 186.69 0)
+			(at 27.0548 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7835,7 +7613,7 @@
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 64.77 93.98 90)
+		(at 64.77 96.52 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7845,7 +7623,7 @@
 		)
 		(uuid "85e508b0-ab79-4e8a-87ae-c02b1c996d52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.77 86.0962 90)
+			(at 64.77 88.6362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8121,7 +7899,7 @@
 	)
 	(global_label "UP_DN"
 		(shape input)
-		(at 78.74 95.25 90)
+		(at 78.74 97.79 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8131,7 +7909,7 @@
 		)
 		(uuid "d746e3b8-b01b-497a-98b2-abfac679c1f8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 78.74 86.0962 90)
+			(at 78.74 88.6362 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,7 +7943,7 @@
 	)
 	(global_label "V3V3_USB2422"
 		(shape input)
-		(at 19.05 176.53 0)
+		(at 19.05 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8175,7 +7953,7 @@
 		)
 		(uuid "e794f441-5683-4d42-8ab7-146894348195")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 36.247 176.53 0)
+			(at 36.247 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8187,7 +7965,7 @@
 	)
 	(global_label "TP_CP2102_VDD"
 		(shape input)
-		(at 19.05 165.1 0)
+		(at 19.05 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8197,7 +7975,7 @@
 		)
 		(uuid "ebae278e-26be-49d7-b84c-78ff480d2249")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.2146 165.1 0)
+			(at 37.2146 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8209,7 +7987,7 @@
 	)
 	(global_label "UP_DP"
 		(shape input)
-		(at 92.71 96.52 90)
+		(at 92.71 99.06 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8219,7 +7997,7 @@
 		)
 		(uuid "ee10e175-b91f-477a-a9ff-f199d5c3edf5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 87.4267 90)
+			(at 92.71 89.9667 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,6 +8020,28 @@
 		(uuid "f5acdcae-34a6-443d-a0ec-f3b542ea58ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 136.7585 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 19.05 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa994c3c-1e6e-4cc0-af06-430543968c5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.9338 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8734,34 +8534,31 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 19.05 175.26 0)
+		(at 19.05 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "26afa40f-0962-401e-a2a2-fbc85a7aa3a0")
 		(property "Reference" "TP2"
-			(at 21.59 170.6879 0)
+			(at 17.272 165.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TP_V3V3_USB2422"
-			(at 21.59 173.2279 0)
+			(at 30.48 165.354 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 24.13 175.26 0)
+			(at 19.05 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,7 +8567,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 175.26 0)
+			(at 19.05 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8779,7 +8576,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 19.05 175.26 0)
+			(at 19.05 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9682,10 +9479,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5cdd6949-e652-47d9-b26f-2b3db3c4f0c9")
 		(property "Reference" "USB1"
-			(at 40.2433 99.06 0)
+			(at 27.178 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +9490,7 @@
 			)
 		)
 		(property "Value" "TYPE-C"
-			(at 40.2433 101.6 0)
+			(at 38.354 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9808,6 +9604,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 19.05 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ee33e62-35e5-46af-a940-6ab4b1d21ba3")
+		(property "Reference" "TP4"
+			(at 17.526 176.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TP_VBUS"
+			(at 24.638 176.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 19.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 19.05 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26515be8-5dee-4322-8891-4220aa31af62")
+		)
+		(instances
+			(project "LICHEE-JACK_USB_DEBUGGER"
+				(path "/307002bb-0079-42fe-bf10-05ee883dca50"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "USB-TYPE-C-018:USB-TYPE-C-018")
 		(at 201.93 121.92 0)
 		(unit 1)
@@ -9815,10 +9675,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6280d423-ced7-4947-b8b1-ffd852a5d1f8")
 		(property "Reference" "USB2"
-			(at 205.3433 104.14 0)
+			(at 194.31 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,7 +9686,7 @@
 			)
 		)
 		(property "Value" "TYPE-C"
-			(at 205.3433 106.68 0)
+			(at 206.502 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10401,34 +10260,31 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 19.05 185.42 0)
+		(at 19.05 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7df8ffb8-4d23-402d-984f-c04fdea8d8f5")
 		(property "Reference" "TP3"
-			(at 21.59 180.8479 0)
+			(at 17.526 171.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "TP_VCON"
-			(at 21.59 183.3879 0)
+			(at 24.638 171.704 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 24.13 185.42 0)
+			(at 19.05 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10437,7 +10293,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 185.42 0)
+			(at 19.05 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10446,7 +10302,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 19.05 185.42 0)
+			(at 19.05 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10528,82 +10384,6 @@
 			(project ""
 				(path "/307002bb-0079-42fe-bf10-05ee883dca50"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "YLED0603O:YLED0603O")
-		(at 259.08 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85598fd3-cf66-4590-8c36-8a01a24577f9")
-		(property "Reference" "LED3"
-			(at 253.492 72.136 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED_ORANGE/YELLOW_TXD"
-			(at 259.588 70.104 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "YLED0603O:LED0603-FD"
-			(at 259.08 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 259.08 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C19273153"
-			(at 259.08 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "35988aea-49e1-4b0c-87bf-120bedb2879c")
-		)
-		(pin "1"
-			(uuid "5122c8cc-9b35-4e90-a4b1-33600ef69eac")
-		)
-		(instances
-			(project ""
-				(path "/307002bb-0079-42fe-bf10-05ee883dca50"
-					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -10961,7 +10741,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 19.05 162.56 0)
+		(at 19.05 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10969,25 +10749,25 @@
 		(dnp no)
 		(uuid "9307a604-fe94-4d16-a173-6b57515cfa69")
 		(property "Reference" "TP1"
-			(at 21.59 157.9879 0)
+			(at 15.748 160.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "TP_CP2102_VDD"
-			(at 21.59 160.5279 0)
+			(at 22.098 160.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 24.13 162.56 0)
+			(at 19.05 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10996,7 +10776,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 162.56 0)
+			(at 19.05 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11453,6 +11233,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 19.05 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6a0c8ee-234c-4e9d-b5e6-add4032ff402")
+		(property "Reference" "#PWR012"
+			(at 19.05 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 19.05 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 19.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d5c006b-b40c-47e2-8e77-6722af903941")
+		)
+		(instances
+			(project "LICHEE-JACK_USB_DEBUGGER"
+				(path "/307002bb-0079-42fe-bf10-05ee883dca50"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TPD1E10B06DPYR:TPD1E10B06DPYR")
 		(at 64.77 113.03 90)
 		(unit 1)
@@ -11824,6 +11669,82 @@
 			(project ""
 				(path "/307002bb-0079-42fe-bf10-05ee883dca50"
 					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "YLED0603G:YLED0603G")
+		(at 259.08 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5f9a534-dd1a-426c-b009-1122eb79ed9f")
+		(property "Reference" "LED5"
+			(at 254.254 70.612 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_YELLOW_RXD"
+			(at 259.84 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "YLED0603G:LED0603-FD"
+			(at 259.08 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C19273151"
+			(at 259.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "425fedde-466f-4084-853c-e2ef16749b0e")
+		)
+		(pin "2"
+			(uuid "968c9c41-a002-43be-9404-61726b1c26f3")
+		)
+		(instances
+			(project "LICHEE-JACK_USB_DEBUGGER"
+				(path "/307002bb-0079-42fe-bf10-05ee883dca50"
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -12536,6 +12457,70 @@
 			(project "LICHEE-JACK_USB_DEBUGGER"
 				(path "/307002bb-0079-42fe-bf10-05ee883dca50"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 19.05 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e306c886-02cd-4982-93d5-136eb64976ce")
+		(property "Reference" "TP5"
+			(at 17.526 181.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TP_GND"
+			(at 24.638 181.864 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 19.05 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 19.05 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 19.05 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a5768db-f240-4570-a7fa-c250192ae135")
+		)
+		(instances
+			(project "LICHEE-JACK_USB_DEBUGGER"
+				(path "/307002bb-0079-42fe-bf10-05ee883dca50"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
