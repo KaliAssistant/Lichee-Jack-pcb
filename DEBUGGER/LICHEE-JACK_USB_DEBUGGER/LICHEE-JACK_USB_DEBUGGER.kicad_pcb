@@ -184,7 +184,7 @@
 	(net 57 "unconnected-(X1-GND-Pad4)")
 	(net 58 "GNDREF")
 	(net 59 "Net-(D8-Pad2)")
-	(net 60 "Net-(LED5--)")
+	(net 60 "Net-(LED3--)")
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "004762df-ad01-474e-9ee7-d6a488ec71fc")
@@ -4578,7 +4578,7 @@
 			(size 0.54 0.64)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net 60 "Net-(LED5--)")
+			(net 60 "Net-(LED3--)")
 			(pintype "passive")
 			(uuid "dec0dfde-8b3f-4d1b-986a-7eac4c121938")
 		)
@@ -8623,7 +8623,7 @@
 		(layer "F.Cu")
 		(uuid "fa8e425e-6746-40f7-9daa-11b1e8df1e9c")
 		(at 145 63 90)
-		(property "Reference" "LED5"
+		(property "Reference" "LED3"
 			(at 0 -4 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -8842,7 +8842,7 @@
 			(at 0.85 0)
 			(size 1 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 60 "Net-(LED5--)")
+			(net 60 "Net-(LED3--)")
 			(pinfunction "-")
 			(pintype "unspecified")
 			(uuid "f7a7176c-d16f-4f66-ab92-e9cff745995d")

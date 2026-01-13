@@ -11683,7 +11683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5f9a534-dd1a-426c-b009-1122eb79ed9f")
-		(property "Reference" "LED5"
+		(property "Reference" "LED3"
 			(at 254.254 70.612 0)
 			(effects
 				(font
@@ -11744,7 +11744,7 @@
 		(instances
 			(project "LICHEE-JACK_USB_DEBUGGER"
 				(path "/307002bb-0079-42fe-bf10-05ee883dca50"
-					(reference "LED5")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
