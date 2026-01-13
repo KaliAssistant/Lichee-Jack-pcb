@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Lichee-Jack USB Debugger")
-		(date "2026-01-11")
+		(date "2026-01-13")
 		(rev "1.0")
-		(company "KaliAssistant")
+		(company "KaliAssistant <work.kaliassistant.github@gmail.com>")
 	)
 	(lib_symbols
 		(symbol "AO3401A:AO3401A"
