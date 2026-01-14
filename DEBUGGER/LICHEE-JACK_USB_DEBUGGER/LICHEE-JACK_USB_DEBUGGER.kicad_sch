@@ -11691,7 +11691,7 @@
 				)
 			)
 		)
-		(property "Value" "LED_YELLOW_RXD"
+		(property "Value" "LED_YELLOW_TXD"
 			(at 259.84 68.58 0)
 			(effects
 				(font
