@@ -120,8 +120,24 @@ The following files are provided in the **EXT‑Board** latest release:
 
 ## Notes
 
+* **Strongly recommended cable selection**
+  Use a **Thunderbolt / USB4 Type‑C cable** to connect **Lichee‑Jack ↔ USB Debugger**.
+
+  Some **USB 3.x Type‑C cables are USB‑3‑only** and **do not include all USB‑2 / SBU related wires**.
+  In such cases:
+
+  * USB 3.x SuperSpeed lanes may be present
+  * **SUB1 / SUB2 (UART0)** lines may be **missing or not connected**
+
+  This can result in **no UART console** even when the hardware is correct.
+
+  Thunderbolt / USB4 cables are required by specification to include **full USB‑2 wiring**, ensuring:
+
+  * Reliable SUB1 / SUB2 connectivity
+  * Stable UART console operation
+
 * **No UART console output/input?**
-  If the serial console shows no activity, **flip the Lichee-Jack side Type-C connector orientation**.
+  If the serial console shows no activity, **flip the Lichee‑Jack side Type‑C connector orientation**.
 
   The reason is that **SUB1 / SUB2 pins are *not symmetric*** like USB D+ / D-:
 
