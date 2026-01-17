@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Lichee-Jack USB Debugger")
-		(date "2026-01-13")
-		(rev "1.0")
+		(date "2026-01-17")
+		(rev "1.1")
 		(company "KaliAssistant <work.kaliassistant.github@gmail.com>")
 	)
 	(lib_symbols
@@ -1433,373 +1433,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "PMEG4010CEJ_115:PMEG4010CEJ_115"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "PMEG4010CEJ_115"
-				(at -5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "PMEG4010CEJ_115:DIO_PMEG4010CEJ_115"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "NXP Semiconductors"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "SOD-323 NXP Semiconductors"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/PMEG4010CEJ,115/NXP+Semiconductors/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "02"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PMEG4010CEJ,115/NXP+Semiconductors/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "PMEG4010CEJ,115"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Diode Schottky 40V 1A (DC) Surface Mount SOD-323F"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "PMEG4010CEJ,115"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "NXP"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "PMEG4010CEJ_115_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.016) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 0.635 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 1.27) (xy 1.905 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -4720,12 +4353,6 @@
 		(uuid "11554b80-2768-4465-95de-fb0a09ba4abf")
 	)
 	(junction
-		(at 271.78 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "154a0201-fe1b-40d5-9ec8-6ddd865eec37")
-	)
-	(junction
 		(at 218.44 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5002,7 +4629,7 @@
 		(uuid "d15b9e58-4964-4a29-9fa9-ebf591b1cd75")
 	)
 	(junction
-		(at 154.94 165.1)
+		(at 151.13 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d229697e-39f9-4080-908c-17d72204f5b1")
@@ -5309,6 +4936,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 63.5) (xy 275.59 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "179e874d-1517-4a7f-85e0-4cc49f59231b")
+	)
+	(wire
+		(pts
 			(xy 149.86 31.75) (xy 158.75 31.75)
 		)
 		(stroke
@@ -5519,7 +5156,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 180.34) (xy 154.94 175.26)
+			(xy 151.13 184.15) (xy 151.13 179.07)
 		)
 		(stroke
 			(width 0)
@@ -5759,16 +5396,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 165.1) (xy 152.4 165.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c2643e6-cf7d-4e01-90b2-cda96d259fdd")
-	)
-	(wire
-		(pts
 			(xy 78.74 97.79) (xy 78.74 100.33)
 		)
 		(stroke
@@ -5869,7 +5496,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 180.34) (xy 154.94 180.34)
+			(xy 154.94 184.15) (xy 151.13 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6169,7 +5796,17 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 40.64) (xy 266.7 40.64)
+			(xy 275.59 74.93) (xy 271.78 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4ecdcd-376c-45cf-a8f6-3bd73c0d6b0f")
+	)
+	(wire
+		(pts
+			(xy 260.35 40.64) (xy 269.24 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6216,6 +5853,16 @@
 			(type default)
 		)
 		(uuid "86118ac3-7e11-43b1-92ac-b199a310a4c7")
+	)
+	(wire
+		(pts
+			(xy 275.59 63.5) (xy 271.78 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86316ada-9abe-40f8-af4c-139031bd4671")
 	)
 	(wire
 		(pts
@@ -6419,16 +6066,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 74.93) (xy 271.78 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dfd67a3-b823-43c4-97bb-7d836113fbbb")
-	)
-	(wire
-		(pts
 			(xy 55.88 97.79) (xy 78.74 97.79)
 		)
 		(stroke
@@ -6546,16 +6183,6 @@
 			(type default)
 		)
 		(uuid "aa39af49-c99d-408b-aefc-b794dbf676cd")
-	)
-	(wire
-		(pts
-			(xy 142.24 165.1) (xy 142.24 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acf6707f-0892-49e3-a9d5-7c5cdc455d44")
 	)
 	(wire
 		(pts
@@ -6719,7 +6346,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 165.1) (xy 154.94 165.1)
+			(xy 142.24 168.91) (xy 151.13 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf021ab6-81f4-43b3-b448-2d017da21757")
+	)
+	(wire
+		(pts
+			(xy 153.67 168.91) (xy 151.13 168.91)
 		)
 		(stroke
 			(width 0)
@@ -7089,16 +6726,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 63.5) (xy 271.78 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9ef38a4-c76b-4371-b469-12b19684f146")
-	)
-	(wire
-		(pts
 			(xy 133.35 49.53) (xy 133.35 62.23)
 		)
 		(stroke
@@ -7171,7 +6798,7 @@
 			)
 		)
 	)
-	(global_label "DN2_DM"
+	(global_label "DN2_DN"
 		(shape input)
 		(at 243.84 104.14 90)
 		(fields_autoplaced yes)
@@ -7183,7 +6810,7 @@
 		)
 		(uuid "046aa3f5-bd1e-4a84-993f-e6ed54088935")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.84 93.6558 90)
+			(at 243.84 93.7767 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,6 +6833,28 @@
 		(uuid "068bca44-b1cf-4fed-8318-25205f3c1b10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 147.32 34.873 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V3V3_CP2102"
+		(shape input)
+		(at 269.24 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "093e1443-8231-489b-b45b-83a960e4ab6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 285.167 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7250,28 +6899,6 @@
 		(uuid "0f41ecf6-99f3-466b-95ca-2faa12acbca6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 97.79 155.523 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TP_CP2102_VDD"
-		(shape input)
-		(at 266.7 40.64 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "111bcec3-5644-45c5-a3e8-737b8b16b429")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.7 22.4754 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7523,6 +7150,28 @@
 			)
 		)
 	)
+	(global_label "V3V3_CP2102"
+		(shape input)
+		(at 275.59 63.5 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60a43e4b-7e22-4306-8cc9-ef81be1d77d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.59 47.573 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "XTAL2"
 		(shape input)
 		(at 128.27 39.37 0)
@@ -7545,7 +7194,7 @@
 			)
 		)
 	)
-	(global_label "DN1_DM"
+	(global_label "DN1_DN"
 		(shape input)
 		(at 251.46 43.18 0)
 		(fields_autoplaced yes)
@@ -7557,7 +7206,7 @@
 		)
 		(uuid "6ff57556-af5a-4f10-9139-d9d802a73595")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.9442 43.18 0)
+			(at 261.8233 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7633,7 +7282,7 @@
 			)
 		)
 	)
-	(global_label "DN2_DM"
+	(global_label "DN2_DN"
 		(shape input)
 		(at 41.91 39.37 180)
 		(fields_autoplaced yes)
@@ -7645,7 +7294,7 @@
 		)
 		(uuid "8e2dd3a0-a0e5-499d-9269-44f8e26c284d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.4258 39.37 0)
+			(at 31.5467 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7767,7 +7416,7 @@
 	)
 	(global_label "VCON"
 		(shape input)
-		(at 157.48 165.1 0)
+		(at 153.67 168.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7777,7 +7426,29 @@
 		)
 		(uuid "a9800126-00f2-4386-b08e-90cce0277ad7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.4848 165.1 0)
+			(at 161.6748 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RXD"
+		(shape input)
+		(at 35.56 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa78ead6-1f60-413d-9257-1f1f83e8b01e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 42.2947 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,7 +7524,7 @@
 			)
 		)
 	)
-	(global_label "DN1_DM"
+	(global_label "DN1_DN"
 		(shape input)
 		(at 41.91 34.29 180)
 		(fields_autoplaced yes)
@@ -7865,12 +7536,34 @@
 		)
 		(uuid "c619c1af-4676-4646-bc9a-c57df44a42fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.4258 34.29 0)
+			(at 31.5467 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "TXD"
+		(shape input)
+		(at 35.56 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cec7a606-b5c1-4053-846e-511eb00c5b60")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.9923 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7919,6 +7612,28 @@
 			)
 		)
 	)
+	(global_label "V3V3_CP2102"
+		(shape input)
+		(at 19.05 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "daf15578-7779-4c6e-abac-d484bd27fda4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.977 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CC2"
 		(shape input)
 		(at 181.61 118.11 180)
@@ -7954,28 +7669,6 @@
 		(uuid "e794f441-5683-4d42-8ab7-146894348195")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 36.247 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "TP_CP2102_VDD"
-		(shape input)
-		(at 19.05 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ebae278e-26be-49d7-b84c-78ff480d2249")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 37.2146 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8122,7 +7815,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 166.37 180.34 0)
+		(at 162.56 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8131,7 +7824,7 @@
 		(fields_autoplaced yes)
 		(uuid "064c8d30-138f-4a73-9471-5611fb152644")
 		(property "Reference" "#PWR011"
-			(at 166.37 186.69 0)
+			(at 162.56 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8140,7 +7833,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 166.3701 184.15 90)
+			(at 162.5601 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8149,7 +7842,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 180.34 0)
+			(at 162.56 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8158,7 +7851,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 180.34 0)
+			(at 162.56 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8167,7 +7860,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 166.37 180.34 0)
+			(at 162.56 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8534,6 +8227,70 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 35.56 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22b59b44-ab5a-4abb-ad06-eff57e56fe67")
+		(property "Reference" "TP7"
+			(at 34.29 176.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TP_RXD"
+			(at 39.624 176.784 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 35.56 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d507f51-ec34-4dc0-9059-e33ba6f5a2cf")
+		)
+		(instances
+			(project "LICHEE-JACK_USB_DEBUGGER"
+				(path "/307002bb-0079-42fe-bf10-05ee883dca50"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 19.05 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8797,273 +8554,9 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 271.78 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3fabfa82-2af7-45dc-9cb2-a7420cf931f0")
-		(property "Reference" "#PWR09"
-			(at 271.78 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 271.78 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 271.78 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10b42bbd-f804-47d6-b291-d5848129f9b2")
-		)
-		(instances
-			(project "LICHEE-JACK_USB_DEBUGGER"
-				(path "/307002bb-0079-42fe-bf10-05ee883dca50"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PMEG4010CEJ_115:PMEG4010CEJ_115")
-		(at 147.32 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47b23929-9733-4d78-9002-92fd24444d46")
-		(property "Reference" "D8"
-			(at 147.32 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS1X-323"
-			(at 147.32 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PMEG4010CEJ_115:DIO_PMEG4010CEJ_115"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "NXP Semiconductors"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.8 mm"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOD-323 NXP Semiconductors"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PMEG4010CEJ,115/NXP+Semiconductors/view-part/?ref=eda"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "02"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PMEG4010CEJ,115/NXP+Semiconductors/view-part/?ref=snap"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PMEG4010CEJ,115"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Diode Schottky 40V 1A (DC) Surface Mount SOD-323F"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "PMEG4010CEJ,115"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "NXP"
-			(at 147.32 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a4a77a5-93a6-477c-ba9a-c96cd2765179")
-		)
-		(pin "2"
-			(uuid "55e207a2-f196-4165-bc97-b7fdeec69252")
-		)
-		(instances
-			(project ""
-				(path "/307002bb-0079-42fe-bf10-05ee883dca50"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "YLED0603G:YLED0603G")
 		(at 259.08 63.5 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9071,7 +8564,7 @@
 		(dnp no)
 		(uuid "48dbb62d-7d8b-49f4-b55d-e2d2410914e7")
 		(property "Reference" "LED4"
-			(at 254.508 59.182 0)
+			(at 263.652 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9079,7 +8572,7 @@
 			)
 		)
 		(property "Value" "LED_GREEN_RXD"
-			(at 259.84 57.15 0)
+			(at 258.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9405,7 +8898,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 180.34 90)
+		(at 158.75 184.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9413,7 +8906,7 @@
 		(dnp no)
 		(uuid "5a7aec6f-6799-4dbe-b2d3-c63d5575f7ab")
 		(property "Reference" "R12"
-			(at 160.782 178.054 90)
+			(at 156.972 181.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9421,7 +8914,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 164.592 178.054 90)
+			(at 160.782 181.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9429,7 +8922,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 162.56 182.118 90)
+			(at 158.75 185.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9438,7 +8931,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 180.34 0)
+			(at 158.75 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9447,7 +8940,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 180.34 0)
+			(at 158.75 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9662,6 +9155,70 @@
 			(project "LICHEE-JACK_USB_DEBUGGER"
 				(path "/307002bb-0079-42fe-bf10-05ee883dca50"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 35.56 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6049de19-9ca0-448c-a00c-0915a4bcd922")
+		(property "Reference" "TP6"
+			(at 34.29 171.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TP_TXD"
+			(at 39.624 171.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9687862a-67a7-48be-ae64-45d903349df1")
+		)
+		(instances
+			(project ""
+				(path "/307002bb-0079-42fe-bf10-05ee883dca50"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -11677,6 +11234,7 @@
 	(symbol
 		(lib_id "YLED0603G:YLED0603G")
 		(at 259.08 74.93 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11684,7 +11242,7 @@
 		(dnp no)
 		(uuid "c5f9a534-dd1a-426c-b009-1122eb79ed9f")
 		(property "Reference" "LED3"
-			(at 254.254 70.612 0)
+			(at 263.906 70.612 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11692,7 +11250,7 @@
 			)
 		)
 		(property "Value" "LED_YELLOW_TXD"
-			(at 259.84 68.58 0)
+			(at 258.32 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12595,7 +12153,7 @@
 	)
 	(symbol
 		(lib_id "YLED0603B:YLED0603B")
-		(at 154.94 170.18 270)
+		(at 151.13 173.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12603,7 +12161,7 @@
 		(dnp no)
 		(uuid "e78e7660-7dd9-4877-a86a-160d6b6bc5a2")
 		(property "Reference" "LED2"
-			(at 151.638 170.688 0)
+			(at 147.828 174.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12611,7 +12169,7 @@
 			)
 		)
 		(property "Value" "LED_BLUE_CONN"
-			(at 149.352 176.022 0)
+			(at 145.542 179.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12619,7 +12177,7 @@
 			)
 		)
 		(property "Footprint" "YLED0603B:LED0603-FD"
-			(at 147.32 170.18 0)
+			(at 143.51 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12628,7 +12186,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 170.18 0)
+			(at 151.13 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12637,7 +12195,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 154.94 170.18 0)
+			(at 151.13 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12646,7 +12204,7 @@
 			)
 		)
 		(property "LCSC Part" "C19171394"
-			(at 144.78 170.18 0)
+			(at 140.97 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
